@@ -13,14 +13,23 @@ This project presents an interactive Superstore Dashboard built using Tableau, l
 *   `Guided Project - Superstore Dashboard_2_Filter.png` - Filtered version of the second dashboard.
 *   `Sample - Superstore.xls` - The dataset used for analysis.
 
-## Features
+## Key Features (Implemented)
 
-*   **Sales Performance Analysis:** Track sales trends over time and across different regions.
-*   **Profitability Insights:** Identify the most and least profitable products/categories.
-*   **Customer Segmentation:** Analyze customer purchasing behaviors.
-*   **Geographical Visualization:** View sales distribution across locations.
-*   **Interactive Filters:** Apply dynamic filters to explore specific insights.
-
+*   **Detailed Order View:** Provided a dedicated "Order Details" view for in-depth analysis of individual orders.
+*   **Interactive Filtering:** Implemented robust filtering capabilities across multiple fields in the "Order Details" view, including Order ID, State/Province, 
+                               City, Customer Name, Segment, Order Date, Profit Ratio, and Status.
+*   **Sortable Data Grids:** Enabled sorting of data within the "Order Details" view by clicking on column headers.
+*   **Customer Segmentation:**  Integrated segment-based filtering in both the "Order Details" view and the main dashboard, allowing analysis by Consumer, 
+                                 Corporate, and Home Office segments.
+*   **Data Export:**  Included a data export feature in the "Order Details" view for further analysis and reporting.
+*   **Key Performance Indicator (KPI) Dashboard:** Developed a main dashboard displaying key metrics such as Sales, Profit, Orders, and Customers, along with year- 
+                                                   over-year comparisons.
+*   **Year-Based Filtering:**  Added year-based filtering to the main dashboard for trend analysis.
+*   **Top N Analysis:**  Enabled filtering and display of top performing customers and manufacturers.
+*   **Geographic Visualization:**  Incorporated a map visualization to display sales or order data geographically.
+*   **Segment and Category Breakdown:**  Included bar charts to analyze order distribution by customer segment and product category.
+*   **Top Performer Lists:**  Displayed lists of top manufacturers and customers in the main dashboard.
+*   
 ## How to Use
 
 1.  Open `Project_Superstore_Dashboard.twbx` in Tableau Desktop (or Tableau Public).
@@ -41,12 +50,3 @@ The dataset (`Sample - Superstore.xls`) includes:
 *   Tableau Desktop (or Tableau Public)
 *   Excel (.xls) support
 
-## Future Enhancements
-
-*   Add forecasting models for sales prediction.
-*   Incorporate advanced KPIs for deeper insights.
-*   Improve user interactivity with additional filters and drill-down options.
-
-## License
-
-This project is open-source and free to use. Modify and adapt as needed!
