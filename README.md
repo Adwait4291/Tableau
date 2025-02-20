@@ -29,9 +29,8 @@ This project presents an interactive Superstore Dashboard built using Tableau, l
 *   **Geographic Visualization:**  Incorporated a map visualization to display sales or order data geographically.
 *   **Segment and Category Breakdown:**  Included bar charts to analyze order distribution by customer segment and product category.
 *   **Top Performer Lists:**  Displayed lists of top manufacturers and customers in the main dashboard.
-*   
-## How to Use
 
+## How to Use
 1.  Open `Project_Superstore_Dashboard.twbx` in Tableau Desktop (or Tableau Public).
 2.  Interact with the visualizations by applying filters and hovering over data points.
 3.  Modify the dashboard as needed to fit additional analysis requirements.
